@@ -1,4 +1,3 @@
-# Use official Node.js image from Docker Hub
 FROM node:latest
 
 # Set the working directory inside the container
@@ -19,3 +18,4 @@ EXPOSE 3000
 
 # Command to run the application
 CMD ["node", "server.js"]
+
